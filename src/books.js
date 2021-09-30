@@ -1,4 +1,3 @@
-// Create a class for the element
 class Book extends HTMLElement {
     constructor() {
         super();
