@@ -17,7 +17,8 @@ function App(){
 
   return (<>
       <div className="container">
-          <h1>React Components</h1>
+          <h1>Coding Books
+          </h1>
           {loaded && data.books.map((book,i) => 
               <mit-book key={i}
                   title={book.title} 
