@@ -1,5 +1,4 @@
 
-
 function App(){
   const [data, setData] = React.useState(null);        
   const [loaded, setLoaded] = React.useState(false);
@@ -17,8 +16,7 @@ function App(){
 
   return (<>
       <div className="container">
-          <h1>Coding Books
-          </h1>
+          <h1>Coding Books</h1>
           {loaded && data.books.map((book,i) => 
               <mit-book key={i}
                   title={book.title} 

@@ -8,6 +8,7 @@
   <!-- bootstrap css -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
+
   <!-- local styles -->
   <link rel="stylesheet" href="styles.css">
 
@@ -16,9 +17,36 @@
 
   <!-- native component -->
   <script src="books.js"></script>
+  <!-- bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+  <!-- ------------------ NAVBAR ------------------ -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Select Books</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto mb-2 mb-lg-0">
+          <a class="nav-item nav-link" id="signin_link" href="#">Eloquent Javascript</a>
+          <a class="nav-item nav-link" id="signin_link" href="#">Eloquent Javascript</a>
+          <a class="nav-item nav-link" id="signin_link" href="#">Eloquent Javascript</a>
+          <a class="nav-item nav-link" id="signin_link" href="#">Eloquent Javascript</a>
+          <a class="nav-item nav-link" id="signin_link" href="#">Eloquent Javascript</a>
+          <a class="nav-item nav-link" id="signin_link" href="#">Eloquent Javascript</a>
+          <a class="nav-item nav-link" id="signin_link" href="#">Eloquent Javascript</a>
+          <a class="nav-item nav-link" id="signin_link" href="#">Eloquent Javascript</a>
+        </div>
+      </div>
+    </div>
+  </nav>
 
   <!-- we will put our teact component inside this div -->
   <div id="root"></div>
@@ -29,6 +57,7 @@
 
   <!-- load our react component. -->
   <script src="index.js" defer type="text/babel"></script>
+
 
 </body>
 
